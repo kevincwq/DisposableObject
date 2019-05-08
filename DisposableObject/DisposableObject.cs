@@ -2,6 +2,10 @@
 
 namespace DisposableObject
 {
+    /// <summary>
+    /// Base class implements the Dispose Pattern
+    /// https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose
+    /// </summary>
     class DisposableObject : IDisposable
     {
         // Flag: Has Dispose already been called?
